@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace E_shop.Models
 {
     public interface ICategoryRepository
     {
-        IEnumerable<Candy> GetAllCategories { get; }
+        IEnumerable<Category> GetAllCategories { get; }
     }
 }
